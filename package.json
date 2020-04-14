@@ -1,0 +1,33 @@
+{
+  "name": "quizapp",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://muhammadusamabaig.github.io/quizapp",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "bootstrap": "^4.4.1",
+    "firebase-tools": "^8.0.2",
+    "gh-pages": "^2.2.0",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.12.0",
+    "react-modal": "^3.11.2",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "0.9.5",
+    "react-top-loading-bar": "^1.2.0",
+    "reactstrap": "^8.4.1",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
